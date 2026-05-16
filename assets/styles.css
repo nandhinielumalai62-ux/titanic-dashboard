@@ -1,0 +1,32 @@
+/* assets/styles.css */
+[data-testid="stAppViewContainer"] {
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+.stMetric {
+    background-color: #1E2130;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
+    color: #00CC96 !important;
+}
+.prediction-card {
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+.survived {
+    background: linear-gradient(135deg, #00CC96, #007B5A);
+}
+.not-survived {
+    background: linear-gradient(135deg, #EF553B, #9E2A2B);
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}

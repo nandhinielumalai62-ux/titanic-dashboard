@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+model/trained_model.pkl
+# Optional: keep model/ if we want it in git, but usually good practice to ignore large pkl files.
+# For this demo, let's track the model folder but ignore the pkl inside it.
